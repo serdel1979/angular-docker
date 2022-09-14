@@ -24,4 +24,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
+## Dockerizar
+
+```
+docker-compose up --build
+```
+# Opción 2
+```
+docker build -t my-project .
+```
+
+# Opción 3
+```
+docker run my-project -p 127.0.0.1:4000:80 --restart=always
+```
+
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
