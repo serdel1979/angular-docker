@@ -24,17 +24,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-## Dockerizar
+# Dockerizar
 
 ```
 docker-compose up --build
 ```
-# Opción 2
+## Opción 2
 ```
 docker build -t my-project .
 ```
 
-# Opción 3
+## Opción 3
 ```
 docker run my-project -p 127.0.0.1:4000:80 --restart=always
 ```
